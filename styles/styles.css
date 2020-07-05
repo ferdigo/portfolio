@@ -1,0 +1,45 @@
+body {
+    color: white;
+    background-color: rgb(59, 59, 59);
+    text-align: center;
+    margin: 5% auto;
+    max-width: 1200px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.my-project {
+    display: flex;
+    max-width: 1020px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.my-project-container {
+    margin: 20px;
+}
+
+.my-project__card {
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    border-radius: 10px;
+    background-image: url(../assets/img/cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 10px #f3e2f1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.my-project-title {
+    text-transform: uppercase;
+}
